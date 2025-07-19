@@ -1,0 +1,80 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.hero {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 0 0 50px 50px;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.timeline-item {
+  padding: 20px;
+  border-left: 4px solid #007bff;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.activity-card {
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .activity-card {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.dark-mode .timeline-item {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-left: 4px solid #00f2fe;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.dark-mode .bg-light {
+  background-color: #1c1c1c !important;
+}
